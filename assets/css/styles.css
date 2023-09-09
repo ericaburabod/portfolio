@@ -8,7 +8,7 @@
 
 /*===== Colores =====*/
 :root {
-  --first-color: #4070f4;
+  --first-color: #a63a7a;
   --second-color: #0e2431;
 }
 
@@ -140,7 +140,7 @@ img {
     width: 80%;
     height: 100%;
     padding: 2rem;
-    background-color: var(--second-color);
+    background-color: #DE6FA1;
     transition: 0.5s;
   }
 }
@@ -266,13 +266,13 @@ img {
 .skills__data {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: left;
   position: relative;
   font-weight: var(--font-semi);
   padding: 0.5rem 1rem;
-  margin-bottom: var(--mb-4);
+  margin-bottom: var(--mb-2);
   border-radius: 0.5rem;
-  box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
+  box-shadow: 0 4px 25px rgba(83, 60, 60, 0.15);
 }
 .skills__icon {
   font-size: 2rem;
@@ -347,7 +347,7 @@ img {
 
 /* ===== FOOTER =====*/
 .footer {
-  background-color: var(--second-color);
+  background-color: #DE6FA1;
   color: #fff;
   text-align: center;
   font-weight: var(--font-semi);
